@@ -50,6 +50,7 @@ class MapaViewController: UIViewController {
     }
     
     func adicionarPino() {
+        
         let annotation = MKPointAnnotation()
         annotation.title = "Registro de ponto"
         
