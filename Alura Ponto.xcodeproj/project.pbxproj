@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,8 +23,6 @@
 		03431DD32703BD2B00EB8D91 /* Alura_Ponto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03431DD12703BD2B00EB8D91 /* Alura_Ponto.xcdatamodeld */; };
 		03712E93272F51F900B30909 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03712E92272F51F900B30909 /* Perfil.swift */; };
 		038FABF62730973B000922A2 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FABF52730973B000922A2 /* Localizacao.swift */; };
-		03BA15D7275D3BEA00F4AB10 /* ReciboService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA15D6275D3BEA00F4AB10 /* ReciboService.swift */; };
-		03BA15DA275D65CE00F4AB10 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 03BA15D9275D65CE00F4AB10 /* Alamofire */; };
 		03E880B22704FC4400033A34 /* Recibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E880B12704FC4400033A34 /* Recibo.swift */; };
 		03FC8D5827306CEE00406136 /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8D5727306CEE00406136 /* AutenticacaoLocal.swift */; };
 		03FDE29A270A3F06004053A7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDE299270A3F06004053A7 /* Camera.swift */; };
@@ -49,7 +47,6 @@
 		03431DD22703BD2B00EB8D91 /* Alura_Ponto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alura_Ponto.xcdatamodel; sourceTree = "<group>"; };
 		03712E92272F51F900B30909 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		038FABF52730973B000922A2 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
-		03BA15D6275D3BEA00F4AB10 /* ReciboService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciboService.swift; sourceTree = "<group>"; };
 		03E880B12704FC4400033A34 /* Recibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recibo.swift; sourceTree = "<group>"; };
 		03FC8D5727306CEE00406136 /* AutenticacaoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticacaoLocal.swift; sourceTree = "<group>"; };
 		03FDE299270A3F06004053A7 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BA15DA275D65CE00F4AB10 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +87,6 @@
 				030EF1CF26FBE686000D3E42 /* Recibo */,
 				03318BBB2731C3F000C0F154 /* Mapa */,
 				03431DD02703BD0A00EB8D91 /* CoreData */,
-				03BA15D5275D3BD400F4AB10 /* Networking */,
 				030EF1AE26FBD61E000D3E42 /* Assets.xcassets */,
 				030EF1B026FBD61E000D3E42 /* LaunchScreen.storyboard */,
 				030EF1B326FBD61E000D3E42 /* Info.plist */,
@@ -215,14 +210,6 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		03BA15D5275D3BD400F4AB10 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				03BA15D6275D3BEA00F4AB10 /* ReciboService.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +226,6 @@
 			dependencies = (
 			);
 			name = "Alura Ponto";
-			packageProductDependencies = (
-				03BA15D9275D65CE00F4AB10 /* Alamofire */,
-			);
 			productName = "Alura Ponto";
 			productReference = 030EF1A226FBD61C000D3E42 /* Alura Ponto.app */;
 			productType = "com.apple.product-type.application";
@@ -269,9 +253,6 @@
 				Base,
 			);
 			mainGroup = 030EF19926FBD61C000D3E42;
-			packageReferences = (
-				03BA15D8275D65CE00F4AB10 /* XCRemoteSwiftPackageReference "Alamofire" */,
-			);
 			productRefGroup = 030EF1A326FBD61C000D3E42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -305,7 +286,6 @@
 				030EF1D926FD2A13000D3E42 /* ReciboTableViewCell.swift in Sources */,
 				03FC8D5827306CEE00406136 /* AutenticacaoLocal.swift in Sources */,
 				03318BC02731C44500C0F154 /* MapaViewController.swift in Sources */,
-				03BA15D7275D3BEA00F4AB10 /* ReciboService.swift in Sources */,
 				038FABF62730973B000922A2 /* Localizacao.swift in Sources */,
 				030EF1CB26FBE62E000D3E42 /* ReciboViewController.swift in Sources */,
 				03431DD32703BD2B00EB8D91 /* Alura_Ponto.xcdatamodeld in Sources */,
@@ -509,25 +489,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		03BA15D8275D65CE00F4AB10 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.4;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		03BA15D9275D65CE00F4AB10 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03BA15D8275D65CE00F4AB10 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		03431DD12703BD2B00EB8D91 /* Alura_Ponto.xcdatamodeld */ = {
