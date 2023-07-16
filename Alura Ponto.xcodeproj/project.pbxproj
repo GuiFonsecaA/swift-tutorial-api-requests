@@ -26,6 +26,7 @@
 		03E880B22704FC4400033A34 /* Recibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E880B12704FC4400033A34 /* Recibo.swift */; };
 		03FC8D5827306CEE00406136 /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC8D5727306CEE00406136 /* AutenticacaoLocal.swift */; };
 		03FDE29A270A3F06004053A7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDE299270A3F06004053A7 /* Camera.swift */; };
+		3DB34CE62A648E1F00B2B3DE /* ReciboService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB34CE52A648E1F00B2B3DE /* ReciboService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		03E880B12704FC4400033A34 /* Recibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recibo.swift; sourceTree = "<group>"; };
 		03FC8D5727306CEE00406136 /* AutenticacaoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticacaoLocal.swift; sourceTree = "<group>"; };
 		03FDE299270A3F06004053A7 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		3DB34CE52A648E1F00B2B3DE /* ReciboService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciboService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				030EF1CF26FBE686000D3E42 /* Recibo */,
 				03318BBB2731C3F000C0F154 /* Mapa */,
 				03431DD02703BD0A00EB8D91 /* CoreData */,
+				3DB34CE42A648DE900B2B3DE /* Networking */,
 				030EF1AE26FBD61E000D3E42 /* Assets.xcassets */,
 				030EF1B026FBD61E000D3E42 /* LaunchScreen.storyboard */,
 				030EF1B326FBD61E000D3E42 /* Info.plist */,
@@ -210,6 +213,14 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		3DB34CE42A648DE900B2B3DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3DB34CE52A648E1F00B2B3DE /* ReciboService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,6 +297,7 @@
 				030EF1D926FD2A13000D3E42 /* ReciboTableViewCell.swift in Sources */,
 				03FC8D5827306CEE00406136 /* AutenticacaoLocal.swift in Sources */,
 				03318BC02731C44500C0F154 /* MapaViewController.swift in Sources */,
+				3DB34CE62A648E1F00B2B3DE /* ReciboService.swift in Sources */,
 				038FABF62730973B000922A2 /* Localizacao.swift in Sources */,
 				030EF1CB26FBE62E000D3E42 /* ReciboViewController.swift in Sources */,
 				03431DD32703BD2B00EB8D91 /* Alura_Ponto.xcdatamodeld in Sources */,
