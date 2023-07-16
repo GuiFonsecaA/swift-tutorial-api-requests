@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4B9CDE37-2C75-43B5-A6DC-417B3FA243A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30FDF57F-8B0F-4BE8-81C5-7ABB8D93F552"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alura Ponto/Recibo/Controller/ReciboViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getRecibos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30FDF57F-8B0F-4BE8-81C5-7ABB8D93F552 - 666cb0db53919199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alura_Ponto.ReciboViewController.getRecibos() -&gt; ()"
+                  moduleName = "Alura Ponto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giggs/Projects/Estudo/xcode/swift/swift-tutorial-api-requests/Alura%20Ponto/Recibo/Controller/ReciboViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "30FDF57F-8B0F-4BE8-81C5-7ABB8D93F552 - 666cb0db539197a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alura_Ponto.ReciboViewController.getRecibos() -&gt; ()"
+                  moduleName = "Alura Ponto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giggs/Projects/Estudo/xcode/swift/swift-tutorial-api-requests/Alura%20Ponto/Recibo/Controller/ReciboViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "30FDF57F-8B0F-4BE8-81C5-7ABB8D93F552 - 376d53b847af8df4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Alura_Ponto.Recibo&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Alura_Ponto.ReciboViewController.getRecibos() -&gt; ()"
+                  moduleName = "Alura Ponto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giggs/Projects/Estudo/xcode/swift/swift-tutorial-api-requests/Alura%20Ponto/Recibo/Controller/ReciboViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C3408D-C56F-4A9B-81CC-F220838CE2CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alura Ponto/Networking/ReciboService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "get(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
